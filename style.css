@@ -473,6 +473,31 @@ form .btn2{
      display: none; 
 } 
 
+
+
+
+.image-wrapper {
+    width: 100%; /* Ensure the image fills the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden; /* Prevent content from spilling outside the container */
+}
+
+.image-wrapper img {
+    width: 100%; /* Scale the image to fit the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+    object-fit: cover; /* Ensure the image covers the area while cropping if needed */
+    border-radius: 8px; /* Optional: Add rounded corners for aesthetics */
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/phone-background.png);
