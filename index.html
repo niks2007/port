@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/new.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>   
+    
+</div>
+
+<div class="videos">
+  <div class="containerss">
+    <video id="background-video" src="https://cdn.imgchest.com/files/3yrgceolzz4.mp4" loop muted playsinline width="100%"></video>
+    <div class="trans">
+        <div class="header-text" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center;">
+            <h1 class="stunning-text aos-init aos-animate" data-aos="fade-up">STUNNING VFX ON A BUDGET</h1>
+            <p  class="aos-init aos-animate">
+                <span  class="size-28 aos-init aos-animate" data-aos="slide-up" data-aos-delay="300">CREATIVE AFFORDABLE IMPACTFUL</span>
+            </p>
+        </div>
+    </div>
+  </div> 
+</div>
+<!-- style="text-align: center; margin-top: 20px;" data-aos="fade-up" data-aos-delay="100"
+style="font-style: normal; font-family: BenchNine, sans-serif; letter-spacing: 5px; color: rgb(255, 255, 255); font-weight: bold; font-size: 28px;" -->
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/001.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I’m Nitin, a VFX artist with five years of experience in editing and content creation. Along with working as an editor for many YouTubers, I also have personal experience as a content creator myself. I specialize in rotoscoping, matte painting, and 3D tracking, using tools like Blender, After Effects, Premiere Pro, and Photoshop. Let’s create something amazing together!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Video Editing</span><br>Edits and Motion Graphics</li>
+                        <li><span>VFX</span><br>Matte Painting, Compositing, 3D Tracking</li>
+                        <li><span>3D Animation & Environments</span><br>Realistic Animation and Environments in Blender</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020 - Current</span><br>Worked with top YouTubers and brands, delivering high-quality content that boosts engagement</li>
+                        <li><span>Content Creator</span><br> Managed my personal YouTube channel, refining skills in production and audience growth.</li>
+                        <!-- <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li> -->
+                    </ul>
+                </div>
+                <!-- <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                        <li><span>2014</span><br>BBA from ISM Bangalore.</li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                
+                <i class="fa-solid fa-video"></i>
+                <!-- <i class="fas fa-code"></i> -->
+                <h2>Video Editing</h2>
+                <p>Expert in seamless editing, dynamic storytelling, and motion graphics using Premiere Pro and After Effects to craft engaging content.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>VFX</h2>
+                <p>Skilled in matte painting, compositing, rotoscoping, and 3D tracking to create cinematic-quality visuals.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <!-- <i class="fab fa-app-store"></i> -->
+                
+
+                <!-- <img src="images/3d-printer.png" alt="" height="65px" width="65px " style="margin-bottom: 18px; background-color: white;"> -->
+                <i class="fi fi-rs-cubes"></i>
+               
+                <h2>3D Animation & Environments</h2>
+                <p>Specialized in 3D modeling, animation, and building immersive digital worlds with Blender.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        
+        <!-- Portfolio Filter Buttons -->
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All Work</button>
+            <button class="filter-btn" data-filter="3d">3D VFX Only</button>
+            <button class="filter-btn" data-filter="video">Video Editing Only</button>
+        </div>
+        
+        <!-- 3D VFX Work Section -->
+        <h2 class="section-title work-category 3d-category">3D VFX Work</h2>
+        <div class="work-list portfolio-items 3d-work">
+            <!-- Video Thumbnail 1 : egg -->
+            <div class="work " onclick="openVideoModal('https://cdn.imgchest.com/files/w7w6cxoa3by.mp4')">
+            
+                <div class="image-wrapper">
+                <img src="https://cdn.imgchest.com/files/d7ogc3n95by.jpeg" alt="Thumbnail for Egg Video">
+                </div>
+                <div class="image-wrapper">
+                </div>
+                <div class="overlay">
+                    <h3>Project 1</h3>
+                </div>
+            </div>
+
+            <!-- Video Thumbnail 2 : coffe -->
+            <div class="work" onclick="openVideoModal('https://cdn.imgchest.com/files/84jdcq9l884.mp4')">
+                <div class="image-wrapper">
+                <img src="https://cdn.imgchest.com/files/w7pjcpoe5n7.jpeg" alt="Thumbnail for coffe Video">
+                </div>
+                <div class="overlay">
+                    <h3>Project 2</h3>
+                </div>
+            </div>
+            <!-- Video Thumbnail 3 : cococola -->
+            <div class="work" onclick="openVideoModal('https://cdn.imgchest.com/files/j7mmce8d6a7.mp4')">
+                <div class="image-wrapper">
+                <img src="https://cdn.imgchest.com/files/l4nec6v32r4.jpeg" alt="Thumbnail for cocacola Video">
+                </div>
+                <div class="overlay">
+                    <h3>Project 3</h3>
+                </div>
+            </div>
+             <!-- Video Thumbnail 4 : ring -->
+             <div class="work" onclick="openVideoModal('https://cdn.imgchest.com/files/k739cdm2jx7.mp4')">
+                <div class="image-wrapper">
+                <img src="https://cdn.imgchest.com/files/p7bwcnor8n7.jpeg" alt="Thumbnail for ring Video">
+                </div>
+                <div class="overlay">
+                    <h3>Project 4</h3>
+                </div>
+            </div>
+            <!-- Video Thumbnail 5 : iron-man -->
+            <div class="work" onclick="openVideoModal('https://cdn.imgchest.com/files/p7bwcnom6k7.mp4')">
+                <div class="image-wrapper">
+                <img src="https://cdn.imgchest.com/files/j7kzcm3r5d7.jpeg" alt="Thumbnail for iron-man Video">
+                </div>
+                <div class="overlay">
+                    <h3>Project 5</h3>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Video Editing Section (Reels) -->
+        <div class="section-intro work-category video-category">
+            <h2 class="section-title">Video Editing</h2>
+            <p class="section-description">Crafting engaging vertical content optimized for social media platforms</p>
+        </div>
+        
+        <div class="reel-work-list portfolio-items video-work">
+            <!-- Reel 1 -->
+            <div class="reel-work" onclick="openVideoModal('https://cdn.imgchest.com/files/4jdcv6o3oj4.mp4')">
+                <div class="reel-image-wrapper">
+                    <img src="thumbnails/1.png" alt="Video Editing Thumbnail 1">
+                    <div class="reel-badge"><i class="fas fa-fire"></i> Trending</div>
+                </div>
+                <div class="overlay">
+                    <h3>Dynamic Transitions</h3>
+                    <p class="reel-description">Smooth flow between scenes with custom effects</p>
+                </div>
+            </div>
+            
+            <!-- Reel 2 -->
+            <div class="reel-work" onclick="openVideoModal('https://cdn.imgchest.com/files/yq9c3vx2rv4.mp4')">
+                <div class="reel-image-wrapper">
+                    <img src="thumbnails/2.png" alt="Video Editing Thumbnail 2">
+                    <div class="reel-badge"><i class="fas fa-star"></i> Featured</div>
+                </div>
+                <div class="overlay">
+                    <h3>Motion Graphics</h3>
+                    <p class="reel-description">Eye-catching animated elements and text</p>
+                </div>
+            </div>
+            
+            <!-- Reel 3 -->
+            <div class="reel-work" onclick="openVideoModal('https://cdn.imgchest.com/files/ye3c2gzqv24.mp4')">
+                <div class="reel-image-wrapper">
+                    <img src="thumbnails/3.png" alt="Video Editing Thumbnail 3">
+                    <div class="reel-badge"><i class="fas fa-award"></i> Best</div>
+                </div>
+                <div class="overlay">
+                    <h3>Visual Effects</h3>
+                    <p class="reel-description">Cinematic VFX enhancing storytelling</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-footer work-category video-category">
+            <p>Specialized in creating engaging content for Instagram, TikTok, and YouTube Shorts</p>
+            <a href="#contact" class="btn reel-btn">Request Custom Reel <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- Fullscreen Video Modal -->
+<div id="videoModal" class="hidden">
+    <div class="video-container">
+        <video id="modalVideo" controls controlsList="nodownload" loop playsinline></video>
+        <button class="close-btn" onclick="closeVideoModal()">×</button>
+    </div>
+</div>
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <a href="mailto:nitinsolanki1217@gmail.com" style="color: white; text-decoration: none;">
+                    <i class="fas fa-paper-plane" style="padding-right: 10px;"></i> nitinsolanki1217@gmail.com
+                </a>
+                <!-- <p><i class="fas fa-paper-plane"></i> contact@example.com</p> -->
+                <!-- <p><i class="fas fa-phone-square-alt"></i> 0123456789</p> -->
+                <div class="social-icons">
+                    <!-- <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a> -->
+                    <a href="https://www.instagram.com/nitin_solanki_vines/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nitin-solanki-vines-7b7165313/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <!-- <a href="" download class="btn btn2 download">Download CV</a> -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Nitin. Made wtih <i class="fas fa-heart"></i> by <a href="https://www.youtube.com/@damnedvision1662">Nitin Solanki</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+    // Portfolio filtering functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                // Get filter value
+                const filterValue = this.getAttribute('data-filter');
+                
+                // Show/hide sections based on filter
+                const categories = document.querySelectorAll('.work-category');
+                const portfolioItems = document.querySelectorAll('.portfolio-items');
+                
+                if (filterValue === 'all') {
+                    // Show all categories and items
+                    categories.forEach(cat => cat.style.display = 'block');
+                    portfolioItems.forEach(item => item.style.display = 'grid');
+                } else if (filterValue === '3d') {
+                    // Show only 3D categories and items
+                    categories.forEach(cat => {
+                        if (cat.classList.contains('3d-category')) {
+                            cat.style.display = 'block';
+                        } else {
+                            cat.style.display = 'none';
+                        }
+                    });
+                    portfolioItems.forEach(item => {
+                        if (item.classList.contains('3d-work')) {
+                            item.style.display = 'grid';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                } else if (filterValue === 'video') {
+                    // Show only video categories and items
+                    categories.forEach(cat => {
+                        if (cat.classList.contains('video-category')) {
+                            cat.style.display = 'block';
+                        } else {
+                            cat.style.display = 'none';
+                        }
+                    });
+                    portfolioItems.forEach(item => {
+                        if (item.classList.contains('video-work')) {
+                            item.style.display = 'grid';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                }
+            });
+        });
+    });
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwUHYGJuQuH33Ka4bcQl5_otVoh6c_UWV-hgziViiWH3fcrYbljlHcz4O4qQe6AyAyT/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+function openVideoModal(videoSrc) {
+    const videoModal = document.getElementById('videoModal');
+    const modalVideo = document.getElementById('modalVideo');
+    const videoContainer = document.querySelector('.video-container');
+
+    // Set the video source and enable controls
+    modalVideo.src = videoSrc;
+    modalVideo.setAttribute('controls', true);
+    modalVideo.setAttribute('controlsList', 'nodownload'); // Disable download
+    modalVideo.setAttribute('playsinline', true); // Better mobile support
+    
+    // Check if it's a reel (portrait) video
+    const isReel = videoSrc.includes('4jdcv6o3oj4.mp4') || 
+                  videoSrc.includes('yq9c3vx2rv4.mp4') || 
+                  videoSrc.includes('ye3c2gzqv24.mp4');
+    
+    // Add class for styling based on video type
+    if (isReel) {
+        videoContainer.classList.add('portrait-video');
+    } else {
+        videoContainer.classList.remove('portrait-video');
+    }
+    
+    videoModal.classList.add('active');
+    
+    // Try to play the video (may be blocked by browser autoplay policies)
+    modalVideo.play().catch(error => {
+        console.log('Autoplay prevented:', error);
+        // Show play button or instructions if autoplay is blocked
+    });
+}
+
+function closeVideoModal() {
+    const videoModal = document.getElementById('videoModal');
+    const modalVideo = document.getElementById('modalVideo');
+
+    // Pause the video and clear the source
+    modalVideo.pause();
+    modalVideo.src = '';
+    videoModal.classList.remove('active');
+}
+  </script>
+   <script>
+    // जावास्क्रिप्ट से वीडियो प्ले करना
+    const video = document.getElementById('background-video');
+    video.play().catch(error => {
+        console.error("Autoplay failed:", error);
+    });
+</script>
+</body>
+</html>
